@@ -1,0 +1,10 @@
+User stories:
+
+1)As a user I want to find the schedules of pharmacies that are no more than 10 km far away from me so that I can go and buy the products* I’m looking for.
+
+2)As a visitor of this Website I want to search for natural remedies to health nuisance so that I can avoid taking medicines. 
+
+3)As an authenticated user I want to share my experiences so that I can be useful to other people and can exchange opinions with them. 
+
+DICTIONARY:
+*products: medicines and medical devices

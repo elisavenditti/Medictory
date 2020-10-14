@@ -1,0 +1,8 @@
+Functional requirements:
+
+1) The system shall provide the list of schedules of pharmacies that are within a radius of 10 km from the user.
+
+2) The system shall provide a section in which all the users can insert their health nuisances and find natural remedies in accordance with them. 
+
+3) The system shall provide a forum section for all website’s visitors with the following restriction: blocks the non-authenticated user’s attempt to write.
+
