@@ -1,0 +1,18 @@
+FUNCTIONAL REQUIREMENTS:
+
+1)The system shall provide a storage section with the basic features of:
+	•Adding new items*;
+	•Move products* to the archive;
+
+2)The system shall provide a calendar where it saves the expiration date of products every time the user adds them to the storage. The day before the expiration, the system shall send the following email to the user:
+“A product is going to expire soon. Check the storage.”
+
+3)The system shall provide a box to search through the archive with three filters on the products*:
+	•Finished;
+	•Expired;
+	•Associated symptom.
+
+
+DICTIONARY:
+*item: medicine with its basic information (name, picture, link to the package leaflet, amount, associated disease and expiration date) or medical devices with its basic information (name, function, amount, eventual expiration date)
+*product: medicines and medical devices
