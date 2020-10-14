@@ -1,0 +1,7 @@
+USER STORIES:
+
+1)	As a patient vulnerable to COVID-19 I want to keep track of the medical devices I have in my storage so that I can decide when going out is safe.
+
+2)	As a user I want to check the expiration date of products I have in my storage so that I can avoid wastefulness.
+
+3)	As a user I want to check an archive of products* I had in the past so that I’m able to know which one I have to buy again. 
