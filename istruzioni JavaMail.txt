@@ -1,0 +1,11 @@
+Passi per mandare le email con java:
+
+1) scaricare la jar javamail
+2) scaricare la jar di activation
+3) aggiungere tutte le external jar al classpath
+4) importare javax.mail.*   javax.mail.internet.*;
+5) importare import javax.activation.* (NB: eclipse dice che non la usa ma togliendola non funziona il codice)
+6) andare sulle impostazioni dell'account google di medictory e dare l'accesso alle app meno sicure nella sezione 'Sicurezza'
+			
+		
+										- Elisa
