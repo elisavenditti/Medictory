@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GcCustomerAppuntamento">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../altro/photo-1585830812416-a6c86bb14576.jpg" />
+         </image></ImageView>
+      <Pane layoutX="116.0" prefHeight="400.0" prefWidth="483.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="358.0" layoutX="63.0" layoutY="-39.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+               <image>
+                  <Image url="@../altro/sfondo_appuntamento.jpg" />
+               </image>
+            </ImageView>
+            <DatePicker fx:id="datatf" layoutX="41.0" layoutY="233.0" prefHeight="11.0" prefWidth="237.0" />
+            <Label layoutX="42.0" layoutY="216.0" prefHeight="17.0" prefWidth="77.0" text="Seleziona la data">
+               <font>
+                  <Font name="Arial" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="141.0" layoutY="71.0" prefHeight="23.0" prefWidth="237.0" text="PRENOTA IL TUO APPUNTAMENTO">
+               <font>
+                  <Font name="Consolas Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="annulla" layoutX="326.0" layoutY="185.0" mnemonicParsing="false" onAction="#annullaPressed" prefHeight="31.0" prefWidth="115.0" text="Annulla">
+               <font>
+                  <Font name="Arial Nova" size="12.0" />
+               </font></Button>
+            <Button fx:id="prenota" layoutX="326.0" layoutY="224.0" mnemonicParsing="false" onAction="#prenotaPressed" prefHeight="31.0" prefWidth="115.0" text="Prenota">
+               <font>
+                  <Font name="Arial Nova" size="12.0" />
+               </font></Button>
+            <Label layoutX="41.0" layoutY="85.0" prefHeight="15.0" prefWidth="39.0" text="Nome">
+               <font>
+                  <Font name="Arial" size="10.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nometf" layoutX="41.0" layoutY="100.0" prefHeight="15.0" prefWidth="237.0">
+               <font>
+                  <Font name="Arial Nova" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="42.0" layoutY="173.0" prefHeight="17.0" prefWidth="126.0" text="Indirizzo e numero civico">
+               <font>
+                  <Font name="Arial" size="10.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cittatf" layoutX="41.0" layoutY="143.0" prefHeight="15.0" prefWidth="237.0">
+               <font>
+                  <Font name="Arial Nova" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="41.0" layoutY="126.0" prefHeight="17.0" prefWidth="39.0" text="Città">
+               <font>
+                  <Font name="Arial" size="10.0" />
+               </font>
+            </Label>
+            <TextField fx:id="indirizzotf" layoutX="41.0" layoutY="190.0" prefHeight="15.0" prefWidth="237.0">
+               <font>
+                  <Font name="Arial Nova" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="farmaciatf" layoutX="41.0" layoutY="282.0" prefHeight="15.0" prefWidth="237.0">
+               <font>
+                  <Font name="Arial Nova" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="42.0" layoutY="263.0" prefHeight="15.0" prefWidth="85.0" text="Farmacia associata">
+               <font>
+                  <Font name="Arial Nova" size="10.0" />
+               </font>
+            </Label>
+            <TextField fx:id="emailtf" layoutX="41.0" layoutY="326.0" prefHeight="15.0" prefWidth="237.0">
+               <font>
+                  <Font name="Arial Nova" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="42.0" layoutY="307.0" prefHeight="17.0" prefWidth="53.0" text="Email">
+               <font>
+                  <Font name="Arial Nova" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox prefHeight="400.0" prefWidth="109.0" style="-fx-background-color: #00000000;">
+         <children>
+            <Pane opacity="0.0" prefHeight="86.0" prefWidth="110.0" />
+            <Button fx:id="risorse" mnemonicParsing="false" onAction="#risorsePressed" prefHeight="39.0" prefWidth="110.0" style="-fx-background-color: #00000000;" text="Risorse" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova Light" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="riciclaggio" mnemonicParsing="false" onAction="#riciclaggioPressed" prefHeight="39.0" prefWidth="110.0" style="-fx-background-color: #00000000;" text="Riciclaggio" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova Light" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="eventi" mnemonicParsing="false" onAction="#eventiPressed" prefHeight="39.0" prefWidth="110.0" style="-fx-background-color: #00000000;" text="Eventi" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova Light" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="account" mnemonicParsing="false" onAction="#accountPressed" prefHeight="39.0" prefWidth="110.0" style="-fx-background-color: #00000000;" text="Account" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova Light" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="home" mnemonicParsing="false" onAction="#homePressed" prefHeight="39.0" prefWidth="110.0" style="-fx-background-color: #00000000;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova Light" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
